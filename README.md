@@ -33,7 +33,7 @@ Connect the sensors and OLED display to the ESP32 as follows:
    - Adafruit Unified Sensor
    - DHT sensor library
    - Blynk
-
+   - WiFi
 You can install these libraries through the Library Manager in the Arduino IDE (Sketch > Include Library > Manage Libraries).
 
 4. Clone this repository to your computer:
