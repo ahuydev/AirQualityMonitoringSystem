@@ -44,16 +44,16 @@ MQ7 mq7(A_PIN, VOLTAGE);
 
 #define BLYNK_PRINT Serial
 
-#define BLYNK_TEMPLATE_ID "TMPL6zO8upUHH"
-#define BLYNK_TEMPLATE_NAME "bai1"
-#define BLYNK_AUTH_TOKEN "vFsObWA8AG7-0KPwRoAb4tw5AYg5sM6H"
+#define BLYNK_TEMPLATE_ID "YOUR BLYNK_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR BLYNK_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "YOUR BLYNK_AUTH_TOKEN"
 
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
 
-char ssid[] = "Mangosteen";
-char pass[] = "12345678";
+char ssid[] = "your_ssid"; 
+char pass[] = "your_pass";
 
 float Ppm = 0;
 float t = 0;
